@@ -3,19 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <title>My Porfolio</title>
 </head>
     <body>
-        <H1>Elijah Robinson's Porfolio</H1>
-        <H2>Aspiring Web Developer</h2>
+        <div class="top-container">
+            <div class="navbar">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headers">
+            <H1>Elijah Robinson</H1>
+            <H2>An <span class="aspiring">Aspiring</span> Web Developer</h2>
+            </div>
+        </div>
         <hr />
-        <H3><a href="./public/movie-ranking.html">Movie Ranking Project</a></H3>
-        <img src="./assets/images/Movie_Ranking.png" height="200" alt="Movie Ranking Project preview"/>
-        <H3><a href="./public/birthday-invite.html">Birhtday Invite Project</a></H3>
-        <img src="./assets/images/Lituation.png" height="200" alt="Birhtday Invite Project preview"/>
+        <div class="middle-container">
+
+            <div class="about-me">
+            <h2>About Me</h2>
+            <img src="./assets/images/Headshot.jpg" alt="me" height="200px">
+            <p>Hello all! My name is Elijah! Thank you for the visit. I'm an aspiring web developer that is new to the scene. I'm a current IT professional who is looking to explore the creative side of the field! I've always been a creative individual and am looking forward to applying my creativity to the web designer world.</p>
+            </div>
+            <hr />
+            <h2 style="text-align: center;">Ask Me About ... </h2>
+            <div class="passions">
+            <div class="football-card">
+                <h3>Football</h3>
+                <img class="interests" src="./assets/images/connor-coyne-OgqWLzWRSaI-unsplash.jpg">
+                <p class="card description">I've played soccer my entire life. There is nothing more in this world that I have put more time into. Go Gunners!</p>
+            </div>
+            <div class="turtle-card">
+                <h3>Mother Nature</h3>
+                <img class="interests" src="./assets/images/ricardo-braham-xYVRzube0iM-unsplash.jpg">
+                <p class="card description">I am a lover of all things living. Turtles are my spirit animal.</p>
+            </div>  
+            <div class="shoe-card">
+                <h3>De La Soles</h3>
+                <img class="interests" src="./assets/images/erik-mclean-TyAlsdZAYRk-unsplash.jpg">
+                <p class="card description">I'm a bit of a fasionista and I collect sneakers. If there's hype around a shoe theres a pretty good bet I'm buying them or thinkning about buying them. </p>
+            </div>
+            </div>
+        </div>
+        
         <hr />
-        <a href="./public/about.html">About Me</a>
-        <a href="./public/contact.html">Contact Me</a>
+            <div class="project-container">
+                <H3><a href="./public/movie-ranking.html">Movie Ranking Project</a></H3>
+                    <img class="project-card" src="./assets/images/Movie_Ranking.png" alt="Movie Ranking Project preview" height="200"/>
+                <H3><a href="./public/birthday-invite.html">Birhtday Invite Project</a></H3>
+                    <img class="project-card" src="./assets/images/Lituation.png" height="200" alt="Birhtday Invite Project preview"/>
+            </div>
+        <hr />
+
+        <a class="btn" href="mailto:EM.Robinson109@gmail.com">Send Me Mail</a>
    </body>
 </html>
 
+
+    

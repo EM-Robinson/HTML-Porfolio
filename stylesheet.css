@@ -1,0 +1,87 @@
+
+body{
+    background: white;
+    color:whitesmoke;
+    font-family: Anton;
+    letter-spacing: 2px;
+    margin: 10px ;
+    
+}
+.aspiring{
+    color: green;
+}
+.menu {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: silver;
+}
+/* Remove bullets, margin and padding */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    float: right;
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.menu li a {
+    display: block;
+    text-align: center;
+    padding:10px 10px;
+}
+.top-container{
+background-image:url(./assets/images/pexels-adrien-olichon-2387793.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+}
+.headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 15%;
+}
+.about-me{
+    background-image:url(./assets/images/pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;   
+}
+.about-me img{
+    border-radius: 50%; 
+}
+.interests{
+    float: left;
+    height: 200PX;
+    width: 200PX;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.passions{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-direction: row nowrap;
+}
+.football-card{
+    max-width: 400px;
+}
+.turtle-card{
+    max-width: 400px;
+}
+.shoe-card{
+    max-width: 400px;
+}
+
+.project-container{
+    display: grid;
+    grid-template:;
+    grid-template-columns: ;
+}
