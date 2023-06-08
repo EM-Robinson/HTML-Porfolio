@@ -4,34 +4,36 @@ body{
     color:whitesmoke;
     font-family: Anton;
     letter-spacing: 2px;
-    margin: 10px ;
-    
+    margin-top: 80px;
+    padding: 30px;    
 }
 .aspiring{
     color: green;
 }
-.menu {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    background-color: silver;
+header img{ 
+    height: 80px;
 }
-/* Remove bullets, margin and padding */
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
-.menu li {
-    float: right;
-    /* Or you can use display: inline; */
+header * {
+    display: inline;
 }
-/* Define the block styling for the links */
-.menu li a {
-    display: block;
-    text-align: center;
-    padding:10px 10px;
+header li {
+    margin: 20px;
 }
+header li a {
+    color: black;
+    text-decoration: none;
+}
+    
 .top-container{
 background-image:url(./assets/images/pexels-adrien-olichon-2387793.jpg);
 background-size:cover;
@@ -69,6 +71,10 @@ width: 100%;
     gap: 50px;
     align-items: center;
     flex-direction: row nowrap;
+    background-image:url(./assets/images/pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 .football-card{
     max-width: 400px;
@@ -81,7 +87,10 @@ width: 100%;
 }
 
 .project-container{
+    background-image:url(./assets/images/pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     display: grid;
-    grid-template:;
-    grid-template-columns: ;
+    grid-template:repeat(3,200PX) / repeat(3,200PX);
+    gap: 10px;
 }
